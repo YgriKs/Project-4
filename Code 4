@@ -1,0 +1,13 @@
+using System;
+
+class Program {
+    static void Main(string[] args) {
+			      int m;
+	          int x = Convert.ToInt32(Console.ReadLine());
+            int y = Convert.ToInt32(Console.ReadLine());
+            int z = Convert.ToInt32(Console.ReadLine());
+
+            m = (x < y) ? (x < z) ? x : z : (y < z) ? y : z;
+            Console.WriteLine(m);
+    }
+}
